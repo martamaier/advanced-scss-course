@@ -13,6 +13,25 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation-checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation-button">
+            <span class="navigation-icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation-background">&nbsp;</div>
+
+        <nav class="navigation-nav">
+            <ul class="navigation-list">
+                <li class="navigation_item"><a href="#" class="navigation-link"><span>01</span>About Natous</a></li>
+                <li class="navigation_item"><a href="#" class="navigation-link"><span>02</span>Your benefits</a></li>
+                <li class="navigation_item"><a href="#" class="navigation-link"><span>03</span>Popular tours</a></li>
+                <li class="navigation_item"><a href="#" class="navigation-link"><span>04</span>Stories</a></li>
+                <li class="navigation_item"><a href="#" class="navigation-link"><span>05</span>Book now</a></li>
+            </ul>
+        </nav>
+    </div>
         <header class="header">
             <div class="logo-box">
                 <img src="img/logo-white.png" alt="Logo" class="logo">
@@ -130,7 +149,7 @@
                                        <p class="card__price-only">Only</p>
                                        <p class="card__price-value">$297</p>
                                    </div>
-                                    <a href="#" class="btn btn-white">Book now!</a>
+                                    <a href="#popup" class="btn btn-white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +180,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a href="#" class="btn btn-white">Book now!</a>
+                                    <a href="#popup" class="btn btn-white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +211,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn-white">Book now!</a>
+                                    <a href="#popup" class="btn btn-white">Book now!</a>
 
                                 </div>
                             </div>
@@ -303,6 +322,47 @@
                 </div>
             </section>
         </main>
+        
+        <footer class="footer">
+            <div class="footer-logo-box">
+                <img src="img/logo-green-2x.png" alt="full logo" class="footer-logo">
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer-navigation">
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#" class="footer-link">Company</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Carrers</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Privacy</a></li>
+                            <li class="footer-item"><a href="#" class="footer-link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer-copyright">
+                        Built by <a href="#" class="footer-link">Jonas Schmedtmann</a> for his online course <a href="#" class="footer-link">Advanced Css And Sass</a>. Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial uses, but not to claim is your own design.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <div class="popup-left">
+                    <img src="img/nat-8.jpg" alt="Tout photo" class="popup-img">
+                    <img src="img/nat-9.jpg" alt="Tout photo" class="popup-img">
+                </div>
+                <div class="popup-right">
+                    <a href="#section-tours" class="popup-close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                    <p class="popup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi ducimus eaque eos eveniet excepturi expedita facere harum illo, incidunt, iure numquam quibusdam sit voluptatem voluptates! Aspernatur autem commodi consectetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad animi architecto aspernatur autem culpa deserunt distinctio eius.</p>
+                    <a href="#" class="btn btn-green">Book now</a>
+
+                </div>
+            </div>
+        </div>
 
         <!--
         <section class="grid-test">
